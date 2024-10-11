@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+img {
+  width: 100%; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column" >
+    <img src="images/p.jpg" alt="">
+  </div>
+
+  <div class="column" >
+    <img src="images/pp.jpg" alt="">
+  </div>
+  <div class="column" >
+    <img src="images/ppp.jpg" alt="">
+  </div>
+  <div class="column" >
+    <img src="images/pppp.jpg" alt="">
+  </div>
+</div>
+
+</body>
+</html>
+
